@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 gem 'bootstrap-sass', '3.2.0.0'
@@ -36,6 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'sqlite3', :group => [:development, :test]
 
 group :development, :test do
+  gem 'ruby'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
