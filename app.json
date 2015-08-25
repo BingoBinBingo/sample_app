@@ -1,0 +1,28 @@
+{
+  "name":"sample_app",
+  "description":"这是一个app.json file的文件",
+  "scripts":{},
+  "env":{
+    "BUILDPACK_URL":{
+      "required":true
+    },
+    "LANG":{
+      "required":true
+    },
+    "RACK_ENV":{
+      "required":true
+    },
+    "RAILS_ENV":{
+      "required":true
+    },
+    "RAILS_SERVE_STATIC_FILES":{
+      "required":true
+    },
+    "SECRET_KEY_BASE":{
+      "required":true
+    }
+  },
+  "addons":[
+    "heroku-postgresql"
+  ]
+}
